@@ -1,24 +1,24 @@
 
 main {	
 	font-size: 0px;
-	text-align: center;
+	/*text-align: center;*/
 	padding-top: 25px;
 }
 
 #inner {
-	/*margin-left: auto;
-	margin-right: auto;	*/
+	margin-left: auto;
+	margin-right: auto;
 	width: 600px;
-	/*margin: auto;*/	
+	/*margin: auto;*/
 }
 
 div {
-	box-sizing: border-box;	
-	display: inline-block;	
+	box-sizing: border-box;		
 }
 
 .border {
 	border: 1px solid black;
+	display: inline-block;
 }
 #green {
 	background-color: green;
