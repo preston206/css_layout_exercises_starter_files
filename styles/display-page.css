@@ -1,0 +1,49 @@
+
+#outter {
+	width: 1080px;	
+}
+
+#main {
+	width: 800px;
+	font-size: 0px;
+
+}
+
+div {
+	/*box-sizing: border-box;*/	
+	display: inline-block;
+	margin: auto;
+}
+
+.border {
+	border: 1px solid black;
+}
+#green {
+	background-color: green;
+	width: 50%;
+	height: 200px;
+}
+
+#blue {
+	background-color: blue;
+	width: 50%;
+	height: 200px;
+}
+
+#gray {
+	background-color: #d8d8d8;
+	width: 33.33%;
+	height: 300px;
+}
+
+#black {
+	background-color: black;
+	width: 33.33%;
+	height: 300px;
+}
+
+#orange {
+	background-color: orange;
+	width: 33.33%;
+	height: 300px;
+}
