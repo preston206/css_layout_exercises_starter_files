@@ -1,24 +1,31 @@
-body {
-    background-image: url("/images/outerspace_landscape.jpeg");
+* {
+    box-sizing: border-box;
 }
 
-main {
-    position: relative;    
-    background-color: #c8c8c8;
+body {
+    background-image: url("../images/outerspace_landscape.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {    
+    /*background-color: #c8c8c8;*/
+    margin-top: 110px;
 }
 
 nav {
     background-color: darkgray;
     padding-top: 5px;
     padding-left: 150px;
-    position: fixed;    
+    position: fixed;
+    top: 0; 
     text-align: left;
     height: 110px;
     width: 100%;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
-img {
+.logo {
     border: 1px solid black;
     border-radius: 100px;
     position: absolute;
@@ -47,18 +54,31 @@ li::after {
     font-size: 26px;
 }
 
-/*.outter {
-    position: relative;
-    top: 115px;
-    margin: auto;
-    background-color: lightblue;
-}*/
+.outter {
+    padding: 100px;
+}
 
 .greenBorder {
+    position: relative;
     width: 600px;
     height: 300px;
-    border: 10px dotted green; 
+    border: 10px dotted green;
+    margin: auto;
+}
+
+.images {
+    /*width: 200px;*/
+    height: 200px;
+}
+
+.cat {
     position: absolute;
-    top: 250px;
-    left: 150px;
+    top: -100px;
+    left: -100px;
+}
+
+.dog {
+    position: absolute;
+    left: 500px;
+    bottom: -100px;
 }
